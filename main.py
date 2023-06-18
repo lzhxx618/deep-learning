@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 from surprise import SVD, Dataset, Reader
 
-os.chdir('/Users/lzh/Downloads/jester-data') #设置工作路径
+
 
 @st.cache_data
 def load_data():
